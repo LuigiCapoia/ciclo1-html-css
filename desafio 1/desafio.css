@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+}
+main{
+    width: 100%;
+    height: 500px;
+}
+h1{
+    color: #fff;
+     font-family:Helvetica;
+     font-size: 25px;
+     width: 50%;
+     height: auto;
+     margin-left: 100px;
+     padding: 5px;
+
+}
+/* #logo{
+    color: #fff;
+    position: absolute;
+    font-family: Helvetica;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+} */
+:root{
+--cor-primaria-home : #f9a825;
+--cor-secundaria-home : red;
+--cro-2-f:#212121;
+}
+
+.btn{ border: none;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 30;
+    border-radius: 200px;
+}
+/* home */
+.btn-home{
+    background-color:var(--cor-primaria-home) ;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-home:hover{
+    background-color:var(cor-primaria-home);
+}
+/* contato */
+.btn-contato{
+    background-color:var(--cro-2-f) ;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-contato:hover{
+    background-color:var(--cor-secundaria-home);
+}
+/* sobre */
+.btn-sobre{
+    background-color:var(--cro-2-f) ;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-sobre:hover{
+    background-color:var(--cor-secundaria-home);
+}
+#boton{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#tiacademy{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+#bom-main{
+    width: 600px;
+    height: 200px;
+    border: solid 1px #212121 ;
+    padding: 3px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+article{
+    width: 250px;
+    height: auto;
+}
+.estante{
+    width: 200px; 
+    height: 30px;
+    border-radius: 3px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+.txt{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+p{
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    font-family:Helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 47px;
+    border-right: 1px dashed #000;
+}

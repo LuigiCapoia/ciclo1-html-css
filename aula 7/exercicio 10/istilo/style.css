@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   border: 0;
+   padding: 0;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color:#87ca1b ;
+    border-left: 2px solid #000;
+    border-bottom: 4px solid #000;
+ 
+    
+}
+h1{
+    color: #fff;
+ width: 80%;
+ height: 50px;
+    padding: 20px;
+    margin: 0 auto;
+}
